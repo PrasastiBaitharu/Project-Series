@@ -1,6 +1,6 @@
-import { CreateContext } from "react";
+import { createContext } from "react";
 import { food_list } from "../assets/asset";
-export const StoreContext = CreateContext(null)
+export const StoreContext = createContext(null)
 const StoreContextProvider = () =>{
 
     const contextValue = {
