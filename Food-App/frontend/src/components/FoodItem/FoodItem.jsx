@@ -1,7 +1,7 @@
 import React from 'react'
 import './FoodItem.css'
 import { assets } from '../../assets/asset'
-const FoodItem = ({id,name,price,description,image}) => {
+const FoodItem = ({id,name,price,desc,image}) => {
   return (
     <div>
       <div className="food-item">
@@ -13,7 +13,7 @@ const FoodItem = ({id,name,price,description,image}) => {
                 <p>{name}</p>
                 <img src={assets.rating_star} alt="" />
             </div>
-            <p className="food-item-desc">{description}</p>
+            <p className="food-item-desc">{desc}</p>
             <p className="food-item-price">${price}</p>
         </div>
 
